@@ -54,6 +54,8 @@ section{
 .contact .contact-content{
 
     display: flex;
+	overflow: hidden;
+	z-index: -1;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
@@ -173,6 +175,7 @@ section .title::after{
 .navbar{
 
 	position: fixed;
+	z-index: 100000;
 	width: 100%;
 	background: crimson;
 	padding: 15px 0;
@@ -254,7 +257,7 @@ section .title::after{
 .home{
 
 	display: flex;
-	background:url("img/raz9.jpg") no-repeat center;
+	background:url("img/raz77777.jpg") no-repeat center;
 	
 	height: 100vh;
 	color: #fff;
@@ -297,13 +300,14 @@ section .title::after{
 	
 }
 .home .home-content .text-3 span{
-	color: crimson;
+	color: rgb(53, 13, 212);
+	background-color: rgb(20, 220, 120);
 	font-weight: 500;
 	
 }
 .home .home-content a{
 	display: inline-block;
-	backgroud:crimson;
+	background-color: crimson;
 	color: #fff;
 	font-size: 25px;
 	padding: 12px 36px;
